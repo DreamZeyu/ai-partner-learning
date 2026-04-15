@@ -1,0 +1,13 @@
+[project]
+name = "my-ai-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.15",
+    "langchain-openai>=1.1.13",
+    "langgraph>=1.1.6",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "python-dotenv>=1.2.2",
+]
